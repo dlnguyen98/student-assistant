@@ -1,10 +1,14 @@
-import "./Navbar.css";
+import classes from './Navbar.module.css';
 
 function Navbar() {
     return (
         <>
-        <h1>About</h1>
-        <p>Hello there.<br />How do you do?</p>
+        <div className={classes.navbar}>
+            <div className={classes.navlogo}>
+            <img id="nav-img" src="https://brand.uci.edu/master-branding/marks/_img/BCeater-right-768x416.png" alt="UCI Anteater" />
+                <h1>ZotPal</h1>
+            </div>
+        </div>
         </>
     );
 }

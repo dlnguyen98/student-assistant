@@ -1,0 +1,29 @@
+.navbar {
+    background-color: #2A3439;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    margin-block-start: 0;
+    width: 100%;
+    padding: 0px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5), 0px 8px 12px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+
+.navlogo {
+    display: flex;
+    align-items: center;
+   
+    
+}
+
+h1 {
+    font-size: 25px;
+    color: white;
+}
+
+.navlogo img {
+    width: 75px;
+    height: auto;
+    padding: 15px;
+}
