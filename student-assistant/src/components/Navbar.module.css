@@ -1,7 +1,6 @@
 .navbar {
     background-color: #2A3439;
     overflow: hidden;
-    position: fixed;
     top: 0;
     margin-block-start: 0;
     width: 100%;
@@ -13,8 +12,6 @@
 .navlogo {
     display: flex;
     align-items: center;
-   
-    
 }
 
 h1 {
